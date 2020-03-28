@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-blend-mode: multiply, multiply;
+    cursor: default;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    color: lightsteelblue;
+}
+
+div>i {
+    font-size: 130px;
+    color: white;
+}
+
+div>i :hover {
+    color: aliceblue;
+}
+
+.cntr {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4>div {
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    color: azure;
+    text-align: center;
+}
